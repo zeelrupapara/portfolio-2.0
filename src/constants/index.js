@@ -8,21 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  improwised,
+  carolinacabinetwarehouse,
+  scrapy_mattermostbot,
+  freecons,
+  python,
+  gcp,
+  vue,
+  golang,
+  mysql,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +44,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps Engineer",
     icon: mobile,
   },
   {
@@ -54,7 +52,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blogger",
     icon: creator,
   },
 ];
@@ -73,98 +71,59 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue",
+    icon: vue,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Golang",
+    icon: golang,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GCP",
+    icon: gcp,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Improwised Technologies Pvt. Ltd.",
+    icon: improwised,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working on develop full stack web applications using Vue.js, Golang, and SQL.",
+      "Developing verious kind of project like web-auditor-logs (SEO tool), dart-scoreboard (Dart game), etc.",
+      "Also good at containerization using Docker and Deployment on Kubernetes.",
+      "Scraping data from various websites using Python (Scrapy, Beautifulsoup, Selenium). and also working on extend the fuctionally of erpnext.",
     ],
   },
 ];
@@ -198,67 +157,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cabinet Warehouse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "That's the e-commerce website for Carolina Cabinet Warehouse. It's a local business in Charlotte, NC. I've built this website using Vuejs and PHP.",
     tags: [
       {
-        name: "react",
+        name: "vuejs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "php",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "e-commerce",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carolinacabinetwarehouse,
+    source_code_link: "https://carolinacabinetwarehouse.com/",
   },
   {
-    name: "Job IT",
+    name: "Scrapy Mattermost Bot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Scrapy bot that collects the data from scrapy like how many items scraped, how many items dropped, how many items scraped per second, etc. and send it to the mattermost.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "scrapy",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bot",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: scrapy_mattermostbot,
+    source_code_link: "https://github.com/zeelrupapara/scrapy-mattermostbot",
   },
   {
-    name: "Trip Guide",
+    name: "Freecons",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Scrape the icons from other sites and autohost in client site so that can use you in any sites",
     tags: [
       {
-        name: "nextjs",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "golang",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "icons",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: freecons,
+    source_code_link: "https://github.com/zeelrupapara/freecons",
   },
 ];
 

@@ -7,28 +7,30 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// tech
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import gcp from "./tech/gcp.png";
+import vue from "./tech/vue.png";
+import golang from "./tech/golang.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.png";
+import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// company
+import improwised from "./company/improwised.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// project
+import carolinacabinetwarehouse from "./project/carolinacabinetwarehouse.png";
+import scrapy_mattermostbot from "./project/scrapy_mattermostbot.jpg";
+import freecons from "./project/freecons.png";
 
 export {
   logo,
@@ -41,22 +43,21 @@ export {
   close,
   css,
   docker,
-  figma,
+  improwised,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  mysql,
+  vue,
+  golang,
+  gcp,
+  aws,
+  carolinacabinetwarehouse,
+  scrapy_mattermostbot,
+  freecons,
 };
