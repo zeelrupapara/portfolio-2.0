@@ -21,20 +21,25 @@ import {
   golang,
   mysql,
   aws,
+  GOI,
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
   {
     id: "work",
     title: "Work",
   },
   {
+    id: "experience",
+    title: "Experience",
+  },
+  {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "about",
+    title: "About",
   },
 ];
 
@@ -120,10 +125,16 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
-      "Working on develop full stack web applications using Vue.js, Golang, and SQL.",
-      "Developing verious kind of project like web-auditor-logs (SEO tool), dart-scoreboard (Dart game), etc.",
-      "Also good at containerization using Docker and Deployment on Kubernetes.",
-      "Scraping data from various websites using Python (Scrapy, Beautifulsoup, Selenium). and also working on extend the fuctionally of erpnext.",
+      "Developed full stack web applications using Vue.js, Golang, and SQL.",
+      "Worked on diverse projects like Web Auditor Logs (SEO tool) and Dart Scoreboard (Dart game).",
+      "Proficient in containerization using Docker.",
+      "Deployed applications on Kubernetes for seamless scalability and efficient resource management.",
+      "Experienced in scraping data from various websites using Python (Scrapy, BeautifulSoup, Selenium).",
+      "Extended the functionality of ERPNext to enhance business capabilities.",
+      "Developed robust data pipelines for transforming and syncing data across different domains.",
+      "Created essential microservices for E-commerce platforms, including delivery and payment services.",
+      "Gained extensive knowledge of E-commerce systems and ERPNext through hands-on experience.",
+      "Contributed to improved business processes and revenue growth.",
     ],
   },
 ];
@@ -197,6 +208,27 @@ const projects = [
     ],
     image: scrapy_mattermostbot,
     source_code_link: "https://github.com/zeelrupapara/scrapy-mattermostbot",
+  },
+  {
+    name: "GOI",
+    description:
+      "GitHub Organization Insight (GOI) is a comprehensive tool designed to track and visualize the progress of team members across multiple GitHub organizations. With GOI, you can effortlessly monitor individual contributions, project status, and team dynamics in real-time. Optimize your workflow, enhance collaboration, and gain valuable insights into your development processes with our intuitive dashboard. Empower your teams with GOI to achieve better transparency, productivity, and success in your GitHub projects.",
+    tags: [
+      {
+        name: "vue",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "golang",
+        color: "green-text-gradient",
+      },
+      {
+        name: "github",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: GOI,
+    source_code_link: "https://github.com/zeelrupapara/GOI",
   },
   {
     name: "Freecons",

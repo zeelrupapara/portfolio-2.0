@@ -31,6 +31,7 @@ import improwised from "./company/improwised.png";
 import carolinacabinetwarehouse from "./project/carolinacabinetwarehouse.png";
 import scrapy_mattermostbot from "./project/scrapy_mattermostbot.jpg";
 import freecons from "./project/freecons.png";
+import GOI from "./project/GOI.png";
 
 export {
   logo,
@@ -60,4 +61,5 @@ export {
   carolinacabinetwarehouse,
   scrapy_mattermostbot,
   freecons,
+  GOI,
 };
