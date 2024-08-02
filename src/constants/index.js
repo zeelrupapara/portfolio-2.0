@@ -49,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "DevOps Engineer",
+    title: "LLM Engineer",
     icon: mobile,
   },
   {
@@ -125,16 +125,29 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
-      "Developed full stack web applications using Vue.js, Golang, and SQL.",
-      "Worked on diverse projects like Web Auditor Logs (SEO tool) and Dart Scoreboard (Dart game).",
-      "Proficient in containerization using Docker.",
-      "Deployed applications on Kubernetes for seamless scalability and efficient resource management.",
-      "Experienced in scraping data from various websites using Python (Scrapy, BeautifulSoup, Selenium).",
-      "Extended the functionality of ERPNext to enhance business capabilities.",
-      "Developed robust data pipelines for transforming and syncing data across different domains.",
-      "Created essential microservices for E-commerce platforms, including delivery and payment services.",
-      "Gained extensive knowledge of E-commerce systems and ERPNext through hands-on experience.",
-      "Contributed to improved business processes and revenue growth.",
+      "Developed full stack web applications using Vue.js, Golang, and SQL, delivering robust and scalable solutions for diverse client requirements.",
+      "Customized ERPNext based on specific user needs, enhancing business processes and increasing operational efficiency.",
+      "Led diverse projects such as Web Auditor Logs (SEO tool) and Dart Scoreboard (Dart game), showcasing versatility and innovation.",
+      "Proficient in containerization using Docker, ensuring seamless deployment and scalability of applications.",
+      "Scraped data from various websites using Python (Scrapy, BeautifulSoup, Selenium), providing valuable insights and data-driven solutions.",
+      "Extended the functionality of ERPNext, enhancing business capabilities and adapting the ERP system to meet evolving needs.",
+      "Developed robust data pipelines for transforming and syncing data across different domains, ensuring data integrity and consistency.",
+      "Created essential microservices for E-commerce platforms, including payment services and ecom-service, streamlining operations and improving user experience.",
+      "Gained extensive knowledge of E-commerce systems and ERPNext through hands-on experience, delivering customized solutions and optimizing performance."
+    ],
+  },
+  {
+    title: "Developer",
+    company_name: "Personal Experience",
+    icon: "https://avatars.githubusercontent.com/u/48467846",
+    iconBg: "#383E56",
+    date: "Jan 2023 - Present",
+    points: [
+      "Developed the plugin for Scrapy framework for alerting errors on Mattermost.",
+      "Experienced in local RAG pipeline to improve user queries by getting relevant context.",
+      "Gained experience in VectorDB (Qdrant) and practiced extensively in data cleaning, extraction, embedding, and libraries like NumPy, pandas, and Torch.",
+      "Have hands-on experience in P2P network architecture to distribute loads between peers.",
+      "Contributed to open source projects like Medusa, Frappe, Ollama, and many more."
     ],
   },
 ];
@@ -208,27 +221,6 @@ const projects = [
     ],
     image: scrapy_mattermostbot,
     source_code_link: "https://github.com/zeelrupapara/scrapy-mattermostbot",
-  },
-  {
-    name: "GOI",
-    description:
-      "GitHub Organization Insight (GOI) is a comprehensive tool designed to track and visualize the progress of team members across multiple GitHub organizations. With GOI, you can effortlessly monitor individual contributions, project status, and team dynamics in real-time. Optimize your workflow, enhance collaboration, and gain valuable insights into your development processes with our intuitive dashboard. Empower your teams with GOI to achieve better transparency, productivity, and success in your GitHub projects.",
-    tags: [
-      {
-        name: "vue",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "golang",
-        color: "green-text-gradient",
-      },
-      {
-        name: "github",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: GOI,
-    source_code_link: "https://github.com/zeelrupapara/GOI",
   },
   {
     name: "Freecons",
